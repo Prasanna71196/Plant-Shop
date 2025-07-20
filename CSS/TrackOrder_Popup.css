@@ -1,0 +1,106 @@
+*{
+  font-family: 'Times New Roman', Times, serif;
+  color:black;
+  font-size: 22px;
+}
+
+.popup-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.popup-box {
+  background: #fff;
+  width: 90vmin;               /* Make it square using viewport units */
+  height: 90vmin;              /* Equal width and height */
+  border-radius: 10px;
+  padding: 30px 20px;
+  position: relative;
+  text-align: center;
+  animation: fadeIn 0.3s ease-in-out;
+  overflow-y: auto;           /* Enable vertical scroll if content overflows */
+}
+
+
+.close-btn {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  background: transparent;
+  font-size: 24px;
+  border: none;
+  cursor: pointer;
+}
+
+.popup-content .popup-icon {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+.popup-content h2 {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.toggle-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.toggle-buttons button {
+  /* flex: 1; */
+  padding: 10px;
+  padding-left: 60px;
+  padding-right: 60px;
+  border: 1.5px solid #333;
+  border-radius: 8px;
+  background: white;
+  color: #333;
+  font-weight: bold;
+  cursor: pointer;
+
+}
+
+.toggle-buttons .active {
+  background: #cfe4cd;
+  color: #2d4a2d;
+}
+
+.popup-content p {
+  margin-bottom: 10px;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.popup-content input {
+  width: 80%;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #333;
+  margin-bottom: 15px;
+  font-size: 15px;
+}
+
+.track-btn {
+  width: 40%;
+  padding: 12px;
+  background-color: green;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 17px;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: scale(0.9); }
+  to { opacity: 1; transform: scale(1); }
+}

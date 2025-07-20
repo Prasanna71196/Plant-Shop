@@ -1,0 +1,89 @@
+[
+    {
+        "id": "089",
+        "name": "Oyster Plant",
+        "price": "₹190",
+        "image": "Images/oyster.webp",
+        "rating": 4.8,
+        "discount": "15% OFF",
+        "size": "Small",
+        "sunlight": "Low",
+        "water": "Often"
+    },
+    {
+        "id": "090",
+        "name": "Lucky Jade Plant",
+        "price": "₹290",
+        "image": "Images/jade plant.jpg",
+        "rating": 4.8,
+        "size": "Medium",
+        "sunlight": "Medium",
+        "water": "Spray"
+    },
+    {
+        "id": "091",
+        "name": "Peacock Plant",
+        "price": "₹720",
+        "image": "Images/Peacok pl.webp",
+        "rating": 4.8,
+        "discount": "8% OFF",
+        "size": "Large",
+        "sunlight": "Full",
+        "water": "Daily"
+    },
+    {
+        "id": "092",
+        "name": "Peparomia Plant",
+        "price": "₹390",
+        "image": "Images/Peperomia.webp",
+        "rating": 4.8,
+        "discount": "12% OFF",
+        "size": "Medium",
+        "sunlight": "Low",
+        "water": "Spray"
+    },
+    {
+        "id": "093",
+        "name": "Philodendron Plant",
+        "price": "₹290",
+        "image": "Images/philiyodendro pl.webp",
+        "rating": 4.8,
+        "discount": "10% OFF",
+        "size": "Large",
+        "sunlight": "Full",
+        "water": "Spray"
+    },
+    {
+        "id": "094",
+        "name": "Syngonium Plant",
+        "price": "₹690",
+        "image": "Images/Syngo pl.webp",
+        "rating": 4.8,
+        "discount": "8% OFF",
+        "size": "Medium",
+        "sunlight": "Low",
+        "water": "Often"
+    },
+    {
+        "id": "095",
+        "name": "Fidal Fig Plant",
+        "price": "₹450",
+        "image": "Images/Fidal fig pl.webp",
+        "rating": 4.8,
+        "discount": "10% OFF",
+        "size": "Small",
+        "sunlight": "Full",
+        "water": "Often"
+    },
+    {
+        "id": "096",
+        "name": "Aralia Plant",
+        "price": "₹190",
+        "image": "Images/Aralia pl.webp",
+        "rating": 4.8,
+        "discount": "12% OFF",
+        "size": "Medium",
+        "sunlight": "Medium",
+        "water": "Daily"
+    }
+]

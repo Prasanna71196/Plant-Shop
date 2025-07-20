@@ -1,0 +1,285 @@
+  .popup-wrapper {
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,0.32);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+
+  .popup-box {
+    position: relative;
+    width: 99vw;
+    max-width: 850px;
+    min-width: 340px;
+    aspect-ratio: 8/5;
+    /* background: #fff; */
+    display: flex;
+  justify-content: space-between;
+    border-radius: 22px;
+    overflow: hidden;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.23);
+    font-family: 'Segoe UI', sans-serif;
+    background: transparent;
+    padding:40px;
+    border:1px solid black;
+    border-radius: 5px;
+     max-height: 90vh;         /* or a value that fits your design */
+  overflow-y: auto;         /* vertical scrollbar appears as needed */
+  
+
+  }
+
+  /* Add faded background image using ::before */
+  .popup-box::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: url('../Images/background.jpg') center center/cover no-repeat;
+    opacity: 0.46;              /* Adjust for desired fade */
+    z-index: 0;
+    pointer-events: none;       /* Allow clicks through */
+  }
+
+  /* Ensure content sits above background */
+  .popup-box > * {
+    position: relative;
+    z-index: 1;
+  }
+
+
+  .close-btn {
+    position: absolute;
+    right: 18px;
+    top: 10px;
+    font-size: 32px;
+    cursor: pointer;
+    color: #333;
+    font-weight: bold;
+    z-index: 11;
+  }
+  .pop-up-logo-text {
+    display: flex;
+    flex-direction: row;
+    align-items: center;       /* Vertically center both logo and text */
+    gap: 18px;                 /* Space between logo and text; adjust as needed */
+  min-width: 0; /* allow children to get as wide as needed */
+  }
+
+  .pop-up-logo-text h2 {
+    font-family: 'Allura', cursive !important;
+    font-size: 90px   !important;  
+    font-weight: 200 !important;      /* Match number to .popup-logo height */
+    line-height: 1;
+    margin: 0;
+    color: #236d2a;            /* Own style (optional) */
+    display: flex;
+    align-items: center;
+    height: auto;              /* Exact match to .popup-logo height */
+  }
+
+  /* Left: logo and features, centered content */
+  .popup-left {
+    width: 50%;
+    min-width: 0;
+    padding: 0px 5px 20px 10px;
+    /*background: rgba(255,255,255,0.72);   Slightly transparent white */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+  }
+
+  .popup-logo {
+    width: auto;
+    height: 90px;
+    display: block;
+    max-width: 100%;
+    object-fit: contain;
+    margin-bottom: 16px;
+    /* margin-top: 6px; */
+    padding-top: 0;
+  }
+
+  .popup-left h2 {
+    font-size: 1.5rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+    color: black;
+    margin-top: 10px;
+    margin-bottom: 27px;
+    text-align: center;
+    line-height: 1.0;
+   
+  }
+
+  .popup-features {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  justify-content: center;
+  width: 100%;
+}
+
+/* Each feature box fills half (if two boxes) with max width */
+.feature-box {
+  flex: 1 1 0;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;           /* Vertically center content */
+  border-radius: 13px;
+  text-align: center;
+  /* box-shadow: 0 4px 13px rgba(0,0,0,0.06);*/
+  height: 250px;                     /* or auto, or set based on design */
+  /* background: rgba(255,255,255,0.18);optional: faint bg for contrast */
+  overflow: hidden;
+  padding-bottom: 50  ;
+}
+
+/* Make images fully fill each feature box */
+.feature-box img {
+  width: 100%;
+  height: 100%;
+  /* max-width: 300px;  /* Limit max size, remove if you want full cover */
+  /* max-height: 500px !important; */ 
+  object-fit: cover;
+  display: block;
+  margin: 0;
+}
+
+
+  /* Optional feature heading/text styling */
+  /*
+  .feature-box h4 {
+    font-size: 15px;
+    margin: 6px 0 6px 0;
+    color: #236D2A;
+    font-weight: 600;
+  }
+  .feature-box p {
+    font-size: 13px;
+    color: #555;
+  }
+  */
+
+  .popup-right {
+    width: 40%;
+    min-width: 0;
+    background: rgba(14, 129, 45, 0.62); /* Transparent green, or use: rgba(255,255,255,0.62) for light effect */
+    color: #fff;
+    padding: 40px 26px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 10px;
+  }
+
+
+  .popup-right h3 {
+    font-size: 1.35rem;
+    margin-bottom: 17px;
+  }
+
+  .popup-right input[type="email"] {
+    width: 90%;
+    padding: 11px;
+    border: none;
+    border-radius: 7px;
+    margin-bottom: 10px;
+    font-size: 15px;
+    background: #f6fff3;
+    color: #1e4731;
+  }
+
+  .checkbox-row {
+    display: flex;
+    align-items: center;
+    font-size: 12.5px;
+    gap: 7px;
+    color: #fff;
+    margin-bottom: 15px;
+    text-align: left;
+  }
+
+  .or-line {
+    margin: 12px 0 10px 0;
+    font-weight: 600;
+    font-size: 15px;
+    letter-spacing: 0.5px;
+    color: #b0ecca;
+  }
+
+  .popup-right input[type="email"] {
+  width: 90%;
+  padding: 11px;
+  border: none;
+  border-radius: 7px;
+  margin-bottom: 10px;
+  font-size: 18px;
+  background: #f6fff3;
+  color: #1e4731;
+  text-align: center;  /* Optional: also center user's actual input */
+}
+.popup-right input[type="email"]::placeholder {
+  text-align: center;
+  font-weight: 700;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+
+  .whatsapp-login {
+    background: #fff;
+    color: black;
+    padding: 12px 20px;
+    border: none;
+    font-size: 15px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 15px;
+    cursor: pointer;
+    font-weight: 700;
+    box-shadow: 0 1.5px 8px rgba(0,0,0,0.06);
+  }
+
+  .terms {
+    font-size: 11.5px;
+    line-height: 1.4;
+    color: #e0fbe4;
+    /* margin-bottom: 2px; */
+  }
+  .login-trouble {
+    font-size: 12.7px;
+    margin-top: 8px;
+    color: #fff;
+    text-decoration: none;
+  }
+
+  /* Responsive adjustments */
+  @media (max-width: 700px) {
+    .popup-box {
+      flex-direction: column;
+      max-width: 97vw;
+      aspect-ratio: auto;
+      height: auto;
+      min-width: 0;
+    }
+    .popup-left, .popup-right { width: 100%; padding: 28px 10vw; }
+    .popup-features { flex-direction: row; gap: 7vw; }
+    .feature-box { min-width: 110px; max-width: 160px; }
+    .popup-logo { width: 24vw; height: 24vw; min-width: 80px; }
+  }
+  @media (max-width: 430px) {
+    .popup-box {max-width: 100vw;}
+    .popup-left, .popup-right {padding: 18px 3vw;}
+    .popup-features {gap: 2vw;}
+    .feature-box {min-width: 80px;}
+    .popup-logo {width: 70px;height: 70px;}
+  }

@@ -1,0 +1,89 @@
+[
+  {
+    "id": "product049",
+    "name": "Neem Cake Powder 5Kg",
+    "price": "₹880",
+    "image": "Images/neem cake.jpg",
+    "rating": 4.5,
+    "discount": "12% OFF",
+    "size": "Small",
+    "sunlight": "Low",
+    "water": "Spray"
+  },
+  {
+    "id": "product050",
+    "name": "Cow dung mannure 3Kg",
+    "price": "₹560",
+    "image": "Images/cowdung.jpg",
+    "rating": 4.3,
+    "discount": "10% OFF",
+    "size": "Medium",
+    "sunlight": "Medium",
+    "water": "Often"
+  },
+  {
+    "id": "product051",
+    "name": "Cocopet",
+    "price": "₹180",
+    "image": "Images/cocopet.webp",
+    "rating": 4.1,
+    "discount": "15% OFF",
+    "size": "Large",
+    "sunlight": "Full",
+    "water": "Often"
+  },
+  {
+    "id": "product052",
+    "name": "Vermicomposit 5Kg",
+    "price": "₹540",
+    "image": "Images/vermi.jpg",
+    "rating": 4.2,
+    "size": "Small",
+    "sunlight": "Low",
+    "water": "Often"
+  },
+  {
+    "id": "product053",
+    "name": "Pot Soil",
+    "price": "₹290",
+    "image": "Images/pot soli.jpg",
+    "rating": 4.8,
+    "discount": "8% OFF",
+    "size": "Medium",
+    "sunlight": "Medium",
+    "water": "Spray"
+  },
+  {
+    "id": "product054",
+    "name": "Vermicomposit 3Kg",
+    "price": "₹540",
+    "image": "Images/vermi.jpg",
+    "rating": 4.2,
+    "discount": "12% OFF",
+    "size": "Small",
+    "sunlight": "Full",
+    "water": "Daily"
+  },
+  {
+    "id": "product055",
+    "name": "Neem Cake Powder 3Kg",
+    "price": "₹880",
+    "image": "Images/neem cake.jpg",
+    "rating": 4.5,
+    "discount": "10% OFF",
+    "size": "Medium",
+    "sunlight": "Low",
+    "water": "Spray"
+  },
+  {
+    "id": "product056",
+    "name": "Cow dung mannure 3Kg",
+    "price": "₹560",
+    "image": "Images/cowdung.jpg",
+    "rating": 4.3,
+    "discount": "10% OFF",
+    "size": "Medium",
+    "sunlight": "Medium",
+    "water": "Often"
+  }
+]

@@ -1,0 +1,176 @@
+[
+    {
+        "id": "product033",
+        "name": "Lucky Bamboon Plant",
+        "price": "₹280",
+        "image": "Images/bamboo.webp",
+        "rating": 4.5,
+        "discount": "12% OFF",
+        "size": "Small",
+        "sunlight": "Low",
+        "water": "Spray"
+    },
+    {
+        "id": "product034",
+        "name": "Aglaonema Red Plant",
+        "price": "₹580",
+        "image": "Images/aglonima.webp",
+        "rating": 4.5,
+        "discount": "10% OFF",
+        "size": "Medium",
+        "sunlight": "Medium",
+        "water": "Often"
+    },
+    {
+        "id": "product035",
+        "name": "Snake Plant",
+        "price": "₹560",
+        "image": "Images/snak.webp",
+        "rating": 4.3,
+        "discount": "15% OFF",
+        "size": "Large",
+        "sunlight": "Full",
+        "water": "Often"
+    },
+    {
+        "id": "product036",
+        "name": "Rhoeo Plant",
+        "price": "₹180",
+        "image": "Images/rhio.webp",
+        "rating": 4.1,
+        "size": "Small",
+        "sunlight": "Low",
+        "water": "Often"
+    },
+    {
+        "id": "product037",
+        "name": "Lucky Bonsai Plant",
+        "price": "₹290",
+        "image": "Images/bansai.webp",
+        "rating": 4.8,
+        "discount": "12% OFF",
+        "size": "Small",
+        "sunlight": "Full",
+        "water": "Daily"
+    },
+    {
+        "id": "product038",
+        "name": "Lucky Jade Plant",
+        "price": "₹340",
+        "image": "Images/jade plant.jpg",
+        "rating": 4.2,
+        "discount": "10% OFF",
+        "size": "Medium",
+        "sunlight": "Low",
+        "water": "Spray"
+    },
+    {
+        "id": "product039",
+        "name": "Spider Plant",
+        "price": "₹250",
+        "image": "Images/spider.webp",
+        "rating": 4.0,
+        "discount": "15% OFF",
+        "size": "Medium",
+        "sunlight": "Medium",
+        "water": "Often"
+    },
+    {
+        "id": "product040",
+        "name": "Aralia Plant",
+        "price": "₹190",
+        "image": "Images/Aralia pl.webp",
+        "rating": 4.8,
+        "discount": "12% OFF",
+        "size": "Medium",
+        "sunlight": "Medium",
+        "water": "Daily"
+    },
+    {
+        "id": "product041",
+        "name": "Oyster Plant",
+        "price": "₹190",
+        "image": "Images/oyster.webp",
+        "rating": 4.8,
+        "discount": "15% OFF",
+        "size": "Small",
+        "sunlight": "Low",
+        "water": "Often"
+    },
+    {
+        "id": "product042",
+        "name": "Lucky Jade Plant",
+        "price": "₹290",
+        "image": "Images/jade plant.jpg",
+        "rating": 4.8,
+        "size": "Medium",
+        "sunlight": "Medium",
+        "water": "Spray"
+    },
+    {
+        "id": "product043",
+        "name": "Peacock Plant",
+        "price": "₹720",
+        "image": "Images/Peacok pl.webp",
+        "rating": 4.8,
+        "discount": "8% OFF",
+        "size": "Large",
+        "sunlight": "Full",
+        "water": "Daily"
+    },
+    {
+        "id": "product044",
+        "name": "Peparomia Plant",
+        "price": "₹390",
+        "image": "Images/Peperomia.webp",
+        "rating": 4.8,
+        "discount": "12% OFF",
+        "size": "Medium",
+        "sunlight": "Low",
+        "water": "Spray"
+    },
+    {
+        "id": "product045",
+        "name": "Philodendron Plant",
+        "price": "₹290",
+        "image": "Images/philiyodendro pl.webp",
+        "rating": 4.8,
+        "discount": "10% OFF",
+        "size": "Large",
+        "sunlight": "Full",
+        "water": "Spray"
+    },
+    {
+        "id": "product046",
+        "name": "Syngonium Plant",
+        "price": "₹690",
+        "image": "Images/Syngo pl.webp",
+        "rating": 4.8,
+        "discount": "8% OFF",
+        "size": "Medium",
+        "sunlight": "Low",
+        "water": "Often"
+    },
+    {
+        "id": "product047",
+        "name": "Calathiya Plant",
+        "price": "₹180",
+        "image": "Images/Calathiya md.jpg",
+        "rating": 4.1,
+        "discount": "10% OFF",
+        "size": "Medium",
+        "sunlight": "Low",
+        "water": "Spray"
+    },
+    {
+        "id": "product048",
+        "name": "Aglaonema Ice Plant",
+        "price": "₹280",
+        "image": "Images/aglonima.webp",
+        "rating": 4.8,
+        "discount": "10% OFF",
+        "size": "Medium",
+        "sunlight": "Medium",
+        "water": "Often"
+    }
+]

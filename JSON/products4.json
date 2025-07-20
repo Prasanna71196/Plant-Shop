@@ -1,0 +1,133 @@
+[
+  {
+    "id": "product065",
+    "name": "Areca Plant",
+    "price": "₹580",
+    "image": "Images/Areca md.jpg",
+    "rating": 4.5,
+    "discount": "12% OFF",
+    "size": "Small",
+    "sunlight": "Full",
+    "water": "Daily"
+  },
+  {
+    "id": "product066",
+    "name": "Calathiya Plant",
+    "price": "₹180",
+    "image": "Images/Calathiya md.jpg",
+    "rating": 4.1,
+    "discount": "10% OFF",
+    "size": "Medium",
+    "sunlight": "Low",
+    "water": "Spray"
+  },
+  {
+    "id": "product067",
+    "name": "Dieffenbachia Plant",
+    "price": "₹190",
+    "image": "Images/Dieaffenachiya md.png",
+    "rating": 4.8,
+    "discount": "10% OFF",
+    "size": "Medium",
+    "sunlight": "Low",
+    "water": "Spray"
+  },
+  {
+    "id": "product068",
+    "name": "ZZ Black Plant",
+    "price": "₹290",
+    "image": "Images/zz bk  md.jpg",
+    "rating": 4.8,
+    "discount": "10% OFF",
+    "size": "Small",
+    "sunlight": "Full",
+    "water": "Often"
+  },
+  {
+    "id": "product069",
+    "name": "Chamendia Plant",
+    "price": "₹290",
+    "image": "Images/Chamandero md.webp",
+    "rating": 4.8,
+    "discount": "15% OFF",
+    "size": "Medium",
+    "sunlight": "Medium",
+    "water": "Often"
+  },
+  {
+    "id": "product070",
+    "name": "China DollPlant",
+    "price": "₹340",
+    "image": "Images/china doll md.webp",
+    "rating": 4.2,
+    "discount": "12% OFF",
+    "size": "Small",
+    "sunlight": "Low",
+    "water": "Spray"
+  },
+  {
+    "id": "product071",
+    "name": "Croton Red Plant",
+    "price": "₹250",
+    "image": "Images/Croton md.webp",
+    "rating": 4.0,
+    "discount": "10% OFF",
+    "size": "Medium",
+    "sunlight": "Medium",
+    "water": "Often"
+  },
+  {
+    "id": "product072",
+    "name": "Black rubbert",
+    "price": "₹560",
+    "image": "Images/black rubber md.webp",
+    "rating": 4.3,
+    "discount": "15% OFF",
+    "size": "Large",
+    "sunlight": "Full",
+    "water": "Often"
+  },
+  {
+    "id": "product073",
+    "name": "ZZ Green Plant",
+    "price": "₹720",
+    "image": "Images/zz md.jpg",
+    "rating": 4.8,
+    "size": "Small",
+    "sunlight": "Low",
+    "water": "Often"
+  },
+  {
+    "id": "product074",
+    "name": "Aglaonema Ice Plant",
+    "price": "₹280",
+    "image": "Images/aglonima.webp",
+    "rating": 4.8,
+    "discount": "10% OFF",
+    "size": "Medium",
+    "sunlight": "Medium",
+    "water": "Often"
+  },
+  {
+    "id": "product075",
+    "name": "Aglaonema Ice Plant",
+    "price": "₹280",
+    "image": "Images/Agloanima md.webp",
+    "rating": 4.5,
+    "discount": "10% OFF",
+    "size": "Medium",
+    "sunlight": "Medium",
+    "water": "Often"
+  },
+  {
+    "id": "product076",
+    "name": "Calathiya Plant",
+    "price": "₹180",
+    "image": "Images/Calathiya md.jpg",
+    "rating": 4.1,
+    "discount": "10% OFF",
+    "size": "Medium",
+    "sunlight": "Low",
+    "water": "Spray"
+  }
+]

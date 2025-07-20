@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ray Plant Shop</title>
+    <link rel="stylesheet" href="CSS/SignUp_Popup.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Alex+Brush&family=Allura&family=Dancing+Script&family=Great+Vibes&family=Pinyon+Script&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <!-- Popup Wrapper -->
+<div class="popup-wrapper">
+  <div class="popup-box">
+    <span class="close-btn">&times;</span>
+    <div class="popup-left">
+      <div class="pop-up-logo-text">
+      <img src="Images/signinpopuplogo.png" alt="Ray Logo" class="popup-logo">
+      <h2>Ray</h2>
+      </div>
+      <h2>Welcome Register to avail the best deal</h2>
+      <div class="popup-features">
+        <div class="feature-box">
+          <img src="Images/signinpopupleftimage1.png" alt="Icon">
+          
+        </div>
+        <div class="feature-box">
+          <img src="Images/signinpopupleftimage2.png" alt="Icon">
+         
+        </div>
+      </div>
+    </div>
+
+    <div class="popup-right">
+      <h3 style="font-family: 'Times New Roman', Times, serif; font-weight: 900;">Unlock Super Discounts</h3>
+      <input type="email" placeholder="Enter Email Id">
+      <div class="checkbox-row">
+        <input type="checkbox" id="notify">
+        <label for="notify" style="font-family: 'Times New Roman', Times, serif;">Notify Me For Any Update & Offers</label>
+      </div>
+      <div class="or-line">--------OR-------</div>
+      <button class="whatsapp-login">
+        <i class="fab fa-whatsapp" style="color:lightgreen;"></i> Whatsapp Login
+      </button><br><br><br>
+      <p class="terms">
+        I Accept That I Have Read And Understood<br>
+        The Privacy Policy And T&C
+      </p>
+      <a href="#" class="login-trouble">Trouble in Logging In?</a>
+    </div>
+  </div>
+</div>
+<script>
+document.querySelector(".close-btn").addEventListener("click", () => {
+  window.history.back();
+});
+
+</script>
+</body>
+</html>

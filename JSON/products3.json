@@ -1,0 +1,90 @@
+[
+    {
+        "id": "097",
+        "name": "Water Globe",
+        "price": "₹790",
+        "image": "Images/water globe.jpg",
+        "rating": 4.2,
+        "discount": "12% OFF",
+        "size": "Small",
+        "sunlight": "Full",
+        "water": "Daily"
+    },
+    {
+        "id": "098",
+        "name": "Vermicomposit",
+        "price": "₹540",
+        "image": "Images/vermi.jpg",
+        "rating": 4.2,
+        "discount": "10% OFF",
+        "size": "Medium",
+        "sunlight": "Low",
+        "water": "Spray"
+    },
+    {
+        "id": "099",
+        "name": "Plant Straw",
+        "price": "₹250",
+        "image": "Images/straw.jpg",
+        "rating": 4.0,
+        "discount": "10% OFF",
+        "size": "Medium",
+        "sunlight": "Low",
+        "water": "Spray"
+    },
+    {
+        "id": "100",
+        "name": "Water Meter",
+        "price": "₹290",
+        "image": "Images/water meter.jpg",
+        "rating": 4.8,
+        "discount": "15% OFF",
+        "size": "Medium",
+        "sunlight": "Medium",
+        "water": "Often"
+    },
+    {
+        "id": "101",
+        "name": "Oyster Plant with self Watering Plant",
+        "price": "₹190",
+        "image": "Images/oyster.webp",
+        "rating": 4.8,
+        "discount": "12% OFF",
+        "size": "Small",
+        "sunlight": "Full",
+        "water": "Daily"
+    },
+    {
+        "id": "102",
+        "name": "Lucky Jade Plant with Self Watering Plant",
+        "price": "₹290",
+        "image": "Images/jade plant.jpg",
+        "rating": 4.8,
+        "discount": "10% OFF",
+        "size": "Medium",
+        "sunlight": "Low",
+        "water": "Spray"
+    },
+    {
+        "id": "103",
+        "name": "Peacock Plant with self watering plant",
+        "price": "₹720",
+        "image": "Images/Peacok pl.webp",
+        "rating": 4.8,
+        "discount": "10% OFF",
+        "size": "Medium",
+        "sunlight": "Low",
+        "water": "Spray"
+    },
+    {
+        "id": "104",
+        "name": "Peparomia plant with self watering plant",
+        "price": "₹390",
+        "image": "Images/Peperomia.webp",
+        "rating": 4.8,
+        "discount": "15% OFF",
+        "size": "Medium",
+        "sunlight": "Medium",
+        "water": "Often"
+    }
+]

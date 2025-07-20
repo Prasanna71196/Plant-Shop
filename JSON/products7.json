@@ -1,0 +1,89 @@
+[
+  {
+    "id": "product057",
+    "name": "Neem Cake Powder",
+    "price": "₹880",
+    "image": "Images/neem cake.jpg",
+    "rating": 4.5,
+    "discount": "12% OFF",
+    "size": "Small",
+    "sunlight": "Low",
+    "water": "Spray"
+  },
+  {
+    "id": "product058",
+    "name": "All in One plant care",
+    "price": "₹580",
+    "image": "Images/Care kit.jpg",
+    "rating": 4.5,
+    "discount": "10% OFF",
+    "size": "Medium",
+    "sunlight": "Medium",
+    "water": "Often"
+  },
+  {
+    "id": "product059",
+    "name": "Cow dung mannure 3Kg",
+    "price": "₹560",
+    "image": "Images/cowdung.jpg",
+    "rating": 4.3,
+    "discount": "10% OFF",
+    "size": "Medium",
+    "sunlight": "Medium",
+    "water": "Often"
+  },
+  {
+    "id": "product060",
+    "name": "Cocopet",
+    "price": "₹180",
+    "image": "Images/cocopet.webp",
+    "rating": 4.1,
+    "discount": "15% OFF",
+    "size": "Large",
+    "sunlight": "Full",
+    "water": "Often"
+  },
+  {
+    "id": "product061",
+    "name": "Water Globe",
+    "price": "₹790",
+    "image": "Images/water globe.jpg",
+    "rating": 4.8,
+    "size": "Small",
+    "sunlight": "Low",
+    "water": "Often"
+  },
+  {
+    "id": "product062",
+    "name": "Vermicomposit",
+    "price": "₹540",
+    "image": "Images/vermi.jpg",
+    "rating": 4.2,
+    "discount": "12% OFF",
+    "size": "Small",
+    "sunlight": "Full",
+    "water": "Daily"
+  },
+  {
+    "id": "product063",
+    "name": "Plant Straw",
+    "price": "₹250",
+    "image": "Images/straw.jpg",
+    "rating": 4.0,
+    "discount": "10% OFF",
+    "size": "Medium",
+    "sunlight": "Low",
+    "water": "Spray"
+  },
+  {
+    "id": "product064",
+    "name": "Water meter",
+    "price": "₹290",
+    "image": "Images/water meter.jpg",
+    "rating": 4.8,
+    "discount": "10% OFF",
+    "size": "Medium",
+    "sunlight": "Medium",
+    "water": "Often"
+  }
+]
